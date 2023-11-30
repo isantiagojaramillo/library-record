@@ -53,6 +53,14 @@ textarea{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
+a{
+    background-color: #22181C;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
 .button{
     display: flex;
     justify-content: center;
