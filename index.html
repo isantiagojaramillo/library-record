@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Library</title>
+</head>
+<body>
+    <header>
+        <h1>Book Record</h1>
+    </header>
+
+    <main>
+        <section class="form">
+            <form action="./php/bookRecords.php" method="post">
+                <div class="title">
+                    <label for="title">Book Title: </label>
+                    <input type="text" id="title" name="title">
+                </div>
+
+                <div class="author">
+                    <label for="author">Author: </label>
+                    <input type="text" id="author" name="author">
+                </div>
+
+                <div class="description">
+                    <label for="description">Book Description: </label>
+                    <textarea name="description" id="description"></textarea>
+                </div>
+
+                <div class="button">
+                    <button type="submit" class="button">Send</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Made by Santiago Jaramillo - Frontend Developer</p>
+    </footer>
+</body>
+</html>
