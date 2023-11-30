@@ -1,7 +1,7 @@
 <?php
     include "connection.php";
 
-    $id = $FET['id'];
+    $id = $_GET['id'];
 
     $connection->query("DELETE FROM books WHERE id='$id'");
 
